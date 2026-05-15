@@ -24,7 +24,7 @@ export default class Providers {
             );
           }
 
-          if (!providerTypes.includes(type)) {
+          if (!providerTypes.includes(type as string)) {
             reply.status(400);
             done(new Error('Type must be either: ' + providerTypes.toString()));
           }
@@ -34,8 +34,8 @@ export default class Providers {
       },
       async (request: ProvidersRequest, reply: FastifyReply) => {
         const { type } = request.query;
-        const providers = Object.values(PROVIDERS_LIST[type]).sort((one, two) =>
-          one.name.localeCompare(two.name),
+        const providers = Object.values(PROVIDERS_LIST[type] as any).sort(
+          (one: any, two: any) => one.name.localeCompare(two.name),
         );
         reply.status(200).send(providers.map((element) => element.toString));
       },
