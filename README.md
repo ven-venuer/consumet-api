@@ -11,17 +11,17 @@
   Consumet provides an APIs for accessing information and links for various entertainments like movies, books, anime, etc.
 </p>
 <p align="center">
-    <a href="https://github.com/consumet/api.consumet.org/actions/workflows/docker-build.yml">
-      <img src="https://github.com/consumet/api.consumet.org/actions/workflows/docker-build.yml/badge.svg" alt="Discord">
+    <a href="https://github.com/ven-venuer/consumet-api/actions/workflows/docker-build.yml">
+      <img src="https://github.com/ven-venuer/consumet-api/actions/workflows/docker-build.yml/badge.svg" alt="Discord">
     </a>
-    <a href="https://github.com/consumet/api.consumet.org/actions/workflows/codeql-analysis.yml">
-      <img src="https://github.com/consumet/api.consumet.org/actions/workflows/codeql-analysis.yml/badge.svg" alt="Discord">
+    <a href="https://github.com/ven-venuer/consumet-api/actions/workflows/codeql-analysis.yml">
+      <img src="https://github.com/ven-venuer/consumet-api/actions/workflows/codeql-analysis.yml/badge.svg" alt="Discord">
     </a>
     <a href="https://discord.gg/qTPfvMxzNH">
       <img src="https://img.shields.io/discord/987492554486452315?color=7289da&label=discord&logo=discord&logoColor=7289da" alt="Discord">
     </a>
-    <a href="https://github.com/consumet/api/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/consumet/api" alt="GitHub">
+    <a href="https://github.com/ven-venuer/consumet-api/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/consumet-api" alt="GitHub">
   </a>
 </p>
 
@@ -57,8 +57,8 @@ installation is simple.
 Run the following command to clone the repository, and install the dependencies.
 
 ```sh
-$ git clone https://github.com/consumet/api.consumet.org.git
-$ cd api.consumet.org
+$ git clone https://github.com/ven-venuer/consumet-api.git
+$ cd consumet-api
 $ npm install #or yarn install
 ```
 
@@ -87,17 +87,17 @@ You can add `-d` flag to run the server in detached mode.
 ### Heroku
 Host your own instance of Consumet API on Heroku using the button below.
 
-[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/consumet/api.consumet.org/tree/main)
+[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ven-venuer/consumet-api/tree/main)
 
 ### Vercel
 Host your own instance of Consumet API on Vercel using the button below.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fconsumet%2Fapi.consumet.org)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fven-venuer%2Fconsumet-api)
 
 ### Render
 Host your own instance of Consumet API on Render using the button below.
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/consumet/api.consumet.org)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/ven-venuer/consumet-api)
 
 ### Railway
 Host your own instance of Consumet API on Railway using the button below.
